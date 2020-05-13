@@ -2,6 +2,11 @@
 	background-color: black;
 }*/
 
+div {
+	display: inline-block;
+	position: absolute;
+}
+
 #searchbox {
 	display: block;
 	position: absolute;
