@@ -3,6 +3,7 @@
 }*/
 
 #searchbox {
+	display: block;
 	position: absolute;
 	
 }
