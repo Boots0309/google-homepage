@@ -5,10 +5,14 @@
 div {
 	display: inline-block;
 	position: absolute;
+	margin: auto;
+	width: 50%;
+	
 }
 
 #searchbox {
 	display: block;
 	position: absolute;
-	
+	margin: auto;
+	width: 50%;
 }
