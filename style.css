@@ -6,16 +6,13 @@ img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 250px;
-	width: 20%;
+	margin-top: 160px;
+	width: 19%;
 	
 }
 
-.searchbox {
+#searchbox {
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 50px;
-	width: 60%;
+	margin: auto;
 
 }
