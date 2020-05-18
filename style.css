@@ -8,7 +8,13 @@ img {
 	margin-right: auto;
 	margin-top: 160px;
 	width: 19%;
+}
+
+header {
+	display: inline;
+	font-family: "Segoe UI", "Roboto", "Arial", "san-serif";
 	
+
 }
 
 #searchbox {
