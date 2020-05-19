@@ -1,9 +1,11 @@
-
 li {
-	display: inline;
+	display: inline-block;
 	font-family: "Segoe UI", "Roboto", "Arial", "san-serif";
 	text-decoration: none;
 	list-style-type: none;
+	position: fixed;
+	right: 10px;
+	top: 5px;
 
 }
 
