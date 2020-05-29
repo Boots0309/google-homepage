@@ -16,6 +16,7 @@ img {
 }	
 
 #searchbox {
+	display: block;
 	margin: auto;
 	width: 430px;
 	border: 40px;
