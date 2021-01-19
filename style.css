@@ -2,14 +2,37 @@
 	box-sizing: border-box;
 }
 
-.nav {
-	display: block;
-	float: left;
+.mainNav{
+	position: relative;
+	background-color: blue;
+	height: 40px;
+}
+
+
+.nav1 {
+	/* display: block; */
+	position: absolute;
+	top: 0;
+	right: 100px;
+	/* float: right; */
 	font-family: "Segoe UI", "Roboto", "Arial", "san-serif";
 	text-decoration: none;
 	list-style-type: none;
-	margin-bottom: 50%;
-	padding: 10px;
+	margin: 5px;
+	padding: 5px;
+}
+
+.nav2 {
+	/* display: block; */
+	position: absolute;
+	top: 0;
+	right: 30px;
+	/* float: right; */
+	font-family: "Segoe UI", "Roboto", "Arial", "san-serif";
+	text-decoration: none;
+	list-style-type: none;
+	margin: 5px;
+	padding: 5px;
 	
 }
 
