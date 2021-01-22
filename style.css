@@ -66,7 +66,7 @@ input {
 	font-size: 1em;
 }
 
-@media (min-width: 520px) {
+@media (max-width: 420px) {
 	input {
 		width: 100%;
 	}
