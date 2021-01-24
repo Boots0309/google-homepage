@@ -53,16 +53,22 @@ input {
 
 @media (max-width: 425px) {
 	.nav1 {
-		position: relative;
-		display: inline-block;
-		margin-left: 100px;
+
+		float: left;
+		margin: 0;
+		/* position: relative;
+		display: inline;
+		margin-left: 100px; */
 
 	}
 
 	.nav2 {
-		position: relative;
-		display: inline-block;
-		margin-left: 150px;
+
+		float: left;
+		margin: 0;
+		/* position: relative;
+		display: inline;
+		margin-left: 150px; */
 	}
 }
 
