@@ -52,4 +52,14 @@ input {
 	.nav2 {
 		display: none;
 	}
+	
+	.menuIcon {
+		width: 35px;
+		height: 5px;
+		background-color: black;
+		margin-top: 6px;
+		display: block;
+	}
+	
+
 }
