@@ -2,12 +2,6 @@
 	box-sizing: border-box;
 }
 
-.mainNav{
-	position: relative;
-	height: 40px;
-}
-
-
 .nav1 {
 	position: absolute;
 	top: 0;
@@ -51,32 +45,11 @@ input {
 	font-family: "Segoe UI", "Roboto", "Arial", "san-serif";
 }
 
-@media (max-width: 425px) {
+@media screen and (max-width: 500px) {
 	.nav1 {
-
-		float: left;
-		margin: 0;
-		/* position: relative;
-		display: inline;
-		margin-left: 100px; */
-
+		display: none;
 	}
-
 	.nav2 {
-
-		float: left;
-		margin: 0;
-		/* position: relative;
-		display: inline;
-		margin-left: 150px; */
-	}
-}
-
-
-@media (max-width: 500px) {
-	input {
-		width: 95%;
-		margin-left: 2.5%;
-		margin-right: 2.5%;
+		display: none;
 	}
 }
