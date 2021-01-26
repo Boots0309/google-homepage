@@ -45,21 +45,24 @@ input {
 	font-family: "Segoe UI", "Roboto", "Arial", "san-serif";
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 501px) {
 	.nav1 {
 		display: none;
 	}
 	.nav2 {
 		display: none;
 	}
-	
-	.menuIcon {
-		width: 35px;
-		height: 5px;
+
+	section {
+		width: 30px;
+		height: 3px;
 		background-color: black;
-		margin-top: 6px;
-		display: block;
+		margin: 6px 0;
 	}
-	
+
+	img {
+		margin-top: 100;
+	}
+		
 
 }
