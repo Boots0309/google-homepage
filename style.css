@@ -35,6 +35,11 @@ img {
 	padding: 20px;
 }	
 
+.searchBar {
+	/* background-color: darkolivegreen; */
+	height: 100px;
+}
+
 input {
 	display: block;
 	height: 45px;
@@ -69,9 +74,10 @@ input {
 		height: auto;
 	}
 
-	input {
+	input [type=text] {
 		width: 90%;
 		height: 35px;
+
 	}
 		
 
