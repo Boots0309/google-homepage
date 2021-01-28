@@ -35,19 +35,16 @@ img {
 	padding: 20px;
 }	
 
-.searchBar {
-	/* background-color: darkolivegreen; */
-	height: 100px;
-}
-
-input {
+.searchBar input {
 	display: block;
 	height: 45px;
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
+	padding: 12px;
 	border-radius: 50px;
 	font-family: "Segoe UI", "Roboto", "Arial", "san-serif";
+	font-size: 1em;
 }
 
 @media screen and (max-width: 501px) {
@@ -69,15 +66,16 @@ input {
 		margin-top: 100px;
 		margin-left: auto;
 		margin-right: auto;
-		/* margin-bottom: 50px; */
+		margin-bottom: 50px;
 		width: 55%;
 		height: auto;
 	}
 
-	input [type=text] {
-		width: 90%;
+	input {
+		width: auto;
 		height: 35px;
-
+		margin-left: auto;
+		margin-right: auto;
 	}
 		
 
