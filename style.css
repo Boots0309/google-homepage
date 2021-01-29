@@ -35,13 +35,18 @@ img {
 	padding: 20px;
 }	
 
+.icon {
+	width: 50%;
+	height: auto;
+}
+
 .searchBar input {
 	display: block;
 	height: 45px;
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 12px;
+	padding: 10px;
 	border-radius: 50px;
 	font-family: "Segoe UI", "Roboto", "Arial", "san-serif";
 	font-size: 1em;
