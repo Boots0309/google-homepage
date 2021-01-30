@@ -35,18 +35,18 @@ img {
 	padding: 20px;
 }	
 
-.icon {
-	width: 50%;
-	height: auto;
-}
-
-.searchBar input {
+input[type=text] {
+	background-image: url(images/searchIcon.png);
+	background-size: 25px;
+	background-color: white;
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
 	display: block;
 	height: 45px;
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 10px;
+	padding: 12px 20px 12px 40px;
 	border-radius: 50px;
 	font-family: "Segoe UI", "Roboto", "Arial", "san-serif";
 	font-size: 1em;
@@ -74,14 +74,6 @@ img {
 		margin-bottom: 50px;
 		width: 55%;
 		height: auto;
-	}
-
-	input {
-		width: auto;
-		height: 35px;
-		margin-left: auto;
-		margin-right: auto;
-	}
-		
+	}	
 
 }
