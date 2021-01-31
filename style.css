@@ -80,6 +80,7 @@ input[type=text] {
 	
 	input {
 		max-width: 100%;
+		color: blue;
 	}
 
 }
