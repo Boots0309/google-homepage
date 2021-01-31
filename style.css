@@ -42,11 +42,13 @@ input[type=text] {
 	background-position: 10px 10px;
 	background-repeat: no-repeat;
 	display: block;
+	outline: none;
 	height: 45px;
 	width: 500px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 12px 20px 12px 40px;
+	border: 2px solid gray;
 	border-radius: 50px;
 	font-family: "Segoe UI", "Roboto", "Arial", "san-serif";
 	font-size: 1em;
@@ -60,7 +62,7 @@ input[type=text] {
 		display: none;
 	}
 
-	section {
+	nav {
 		width: 20px;
 		height: 2px;
 		background-color: black;
@@ -68,12 +70,16 @@ input[type=text] {
 	}
 
 	img {
+		max-width: 100%;
 		margin-top: 100px;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 50px;
-		width: 55%;
 		height: auto;
-	}	
+	}
+	
+	input {
+		max-width: 100%;
+	}
 
 }
