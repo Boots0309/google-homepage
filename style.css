@@ -55,6 +55,12 @@ input[type=text] {
 }
 
 @media screen and (max-width: 501px) {
+
+	* {
+		background-color: black;
+	}
+
+
 	.nav1 {
 		display: none;
 	}
@@ -65,7 +71,7 @@ input[type=text] {
 	nav {
 		width: 20px;
 		height: 2px;
-		background-color: black;
+		background-color: white;
 		margin: 3px 0;
 	}
 
@@ -80,7 +86,6 @@ input[type=text] {
 	
 	input {
 		max-width: 100%;
-		color: blue;
 	}
 
 }
