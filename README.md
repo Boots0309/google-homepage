@@ -1,2 +1,3 @@
 # google-homepage
-this is an excercise from the odin project-
+a mini-project to deconstruct an existing web page and rebuild it.
+It is the easy version.
